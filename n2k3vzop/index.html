@@ -699,8 +699,7 @@ function openPapas(){
     ${lidas.length ? `<p class="lee-n"><b>${lidas.length}</b> palabras en inglés</p><div class="words">${ult.map(w => `<b>${w}</b>`).join("")}</div>
       ${lidas.length > ult.length ? `<details class="todas"><summary>Ver todas</summary><div class="words">${lidas.map(w => `<b>${w}</b>`).join("")}</div></details>` : ""}`
       : `<p class="muted">Aquí aparecerán las palabras que su hijo ya lee.</p>`}
-    ${instalado() ? "" : `<h3>Instalar en el celular</h3><p>Así Tito queda en la pantalla de inicio y funciona sin internet.</p><button class="cta" id="bInst" style="font-size:18px;padding:14px 26px">Instalar la app</button><div id="pasosInstalar"></div>`}
-    <p class="muted" style="margin-top:14px">Texto provisional: pendiente de revisión por hablante nativo.</p>`;
+    ${instalado() ? "" : `<h3>Instalar en el celular</h3><p>Así Tito queda en la pantalla de inicio y funciona sin internet.</p><button class="cta" id="bInst" style="font-size:18px;padding:14px 26px">Instalar la app</button><div id="pasosInstalar"></div>`}`;
   $("mPapas").classList.add("on");
   document.querySelector("[data-close2]").onclick = () => $("mPapas").classList.remove("on");
   if ($("bCert2")) $("bCert2").onclick = certificado;
