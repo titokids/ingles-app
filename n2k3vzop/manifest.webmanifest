@@ -1,0 +1,29 @@
+{
+ "name": "Inglés con Tito",
+ "short_name": "Tito",
+ "lang": "es",
+ "start_url": "/ingles-app/n2k3vzop/",
+ "scope": "/ingles-app/n2k3vzop/",
+ "display": "standalone",
+ "background_color": "#FFF8EC",
+ "theme_color": "#3BAA6B",
+ "icons": [
+  {
+   "src": "/ingles-app/img/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/ingles-app/img/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/ingles-app/img/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
