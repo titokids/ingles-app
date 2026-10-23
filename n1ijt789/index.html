@@ -285,16 +285,16 @@ const TXT = {
   sub1: "Sonidos y palabras cortas", sub2: "Palabras largas y vocales largas",
   novo: "¡Nuevo!", bloqueado: "¡5 mundos nuevos!",
   n2Tit: "¡Aquí empieza el Nivel 2!", n2Txt: "Esta puerta se abre con papá o mamá. ¡A llamarlos!",
-  ofTitulo: "Después de cat y dog, en la escuela siguen frog, rain y cake",
-  ofLinhas: ["Ahí las letras se juntan y cambian de sonido, y es normal que los niños se vuelvan a atorar.",
-             "En el Nivel 2, Tito pronuncia cada sonido nuevo en inglés nativo, y su hijo lo repite jugando.",
+  ofTitulo: "En el Nivel 1 aprende a leer cat y dog. En el Nivel 2, frog, rain y cake.",
+  ofLinhas: ["Ahí las letras se juntan y cambian de sonido: la a de cat no suena igual que la de cake. Es normal que los niños se vuelvan a atorar.",
+             "En el Nivel 2, Tito pronuncia cada sonido nuevo en inglés nativo, su hijo lo repite jugando y usted sigue con la guía en español.",
              "Es el mismo juego que ya conoce, con 30 lecciones, 5 mundos y 4 cuentos nuevos."],
   ofLinha3SemJogo: "Es el mismo juego del Nivel 1, con 30 lecciones, 5 mundos y 4 cuentos nuevos.",
-  ofPreco: "US$19, un solo pago. Sin mensualidad. Funciona sin internet.", ofBotao: "Seguir con Tito al Nivel 2",
+  ofPreco: "$349 MXN, IVA incluido. Un solo pago, sin mensualidad. Funciona sin internet.", ofBotao: "Seguir con Tito al Nivel 2",
   formatura: "¡Y la aventura sigue! En el Nivel 2, Tito tiene 5 mundos nuevos."
 };
 /* checkout do Nível 2 (Hotmart): montar_app.py preenche a partir do oferta.json (links.checkout_nivel2) */
-const LINK_NIVEL2 = "https://pay.hotmart.com/N108109663B?checkoutMode=10";
+const LINK_NIVEL2 = "https://pay.hotmart.com/N108109663B?off=3n68zu6l&checkoutMode=10";
 /* figura: nome do arquivo em img/ (com ou sem .png) ou texto */
 const pic = p => !p ? "" : /^[a-z0-9-]+(\.png)?$/.test(p) ? `<img class="pic-img" src="img/${p.replace(/\.png$/, "")}.webp" alt="">` : p;
 /* fala provisória dos sons (sai quando o mp3 da pasta audio/ existir) */
