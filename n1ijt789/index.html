@@ -290,7 +290,7 @@ const TXT = {
              "En el Nivel 2, Tito pronuncia cada sonido nuevo en inglés nativo, su hijo lo repite jugando y usted sigue con la guía en español.",
              "Es el mismo juego que ya conoce, con 30 lecciones, 5 mundos y 4 cuentos nuevos."],
   ofLinha3SemJogo: "Es el mismo juego del Nivel 1, con 30 lecciones, 5 mundos y 4 cuentos nuevos.",
-  ofPreco: "$349 MXN, IVA incluido. Un solo pago, sin mensualidad. Funciona sin internet.", ofBotao: "Seguir con Tito al Nivel 2",
+  ofPreco: (function(){try{return /^America\/(Mexico_City|Cancun|Merida|Monterrey|Matamoros|Chihuahua|Ciudad_Juarez|Ojinaga|Mazatlan|Bahia_Banderas|Hermosillo|Tijuana|Ensenada)$|^Mexico\//.test(Intl.DateTimeFormat().resolvedOptions().timeZone||"")}catch(e){return false}})() ? "$349 MXN, IVA incluido. Un solo pago, sin mensualidad. Funciona sin internet." : "Un solo pago, en tu moneda. Sin mensualidad. Funciona sin internet.",   /* fora do Mexico sem numero (Vini, 24/10/2026) */ ofBotao: "Seguir con Tito al Nivel 2",
   formatura: "¡Y la aventura sigue! En el Nivel 2, Tito tiene 5 mundos nuevos."
 };
 /* checkout do Nível 2 (Hotmart): montar_app.py preenche a partir do oferta.json (links.checkout_nivel2) */
